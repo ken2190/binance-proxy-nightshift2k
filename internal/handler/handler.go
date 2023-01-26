@@ -47,7 +47,7 @@ func (s *Handler) Router(w http.ResponseWriter, r *http.Request) {
 	case "/api/v3/ticker/24hr":
 		s.ticker(w, r)
 
-	case "/api/v3/exchangeInfo", "/fapi/v1/exchangeInfo":
+	case "/api/v3/exchangeInfo", "/fapi/v1/exchangeInfo", "/dapi/v1/exchangeInfo":
 		s.exchangeInfo(w, r)
 
 	default:
