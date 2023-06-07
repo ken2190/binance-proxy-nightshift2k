@@ -33,7 +33,7 @@ First of all, [download](https://golang.org/dl/) and install **Go**. Version `1.
 Installation is done by using the [`go install`](https://golang.org/cmd/go/#hdr-Compile_and_install_packages_and_dependencies) command and rename installed binary in `$GOPATH/bin`:
 
 ```bash
-go install github.com/ken2190/binance-proxy/cmd/binance-proxy
+go install github.com/ken2190/binance-proxy-nightshift2k/cmd/binance-proxy
 ```
 
 ## 📖 Basic Usage
