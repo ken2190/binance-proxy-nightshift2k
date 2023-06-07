@@ -1,4 +1,4 @@
-module binance-proxy
+module github.com/ken2190/binance-proxy
 
 go 1.17
 
